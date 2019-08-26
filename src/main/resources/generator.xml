@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
      <classPathEntry
-             location="D:/jar/mysql-connector-java-5.0.7-bin.jar"/>
+             location="E:/MyOwnProject/Idea_Project/MybatisTools/src/main/resources/jdbcDriver/mysql-connector-java-5.0.7-bin.jar"/>
              <!--location="D:/jar/OralceJDBC.jar"/>-->
      <context id="my" targetRuntime="MyBatis3">
           <commentGenerator>
@@ -40,7 +40,7 @@
                  enableCountByExample="false" enableUpdateByExample="false"
                  enableDeleteByExample="false" enableSelectByExample="false"
                  selectByExampleQueryId="false"/>-->
-
+          <!--设置表名-->
           <table tableName="aos_cmp" domainObjectName="FeeBase"
                  enableCountByExample="false" enableUpdateByExample="false"
                  enableDeleteByExample="false" enableSelectByExample="false"
